@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53F1097D1BEC026E00738881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1097C1BEC026E00738881 /* AppDelegate.swift */; };
+		53F1097F1BEC026E00738881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1097E1BEC026E00738881 /* ViewController.swift */; };
+		53F109821BEC026E00738881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F109801BEC026E00738881 /* Main.storyboard */; };
+		53F109841BEC026E00738881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53F109831BEC026E00738881 /* Assets.xcassets */; };
+		53F109871BEC026F00738881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F109851BEC026F00738881 /* LaunchScreen.storyboard */; };
+		53F109921BEC026F00738881 /* PotatoHeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F109911BEC026F00738881 /* PotatoHeadTests.swift */; };
+		53F1099D1BEC026F00738881 /* PotatoHeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1099C1BEC026F00738881 /* PotatoHeadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		53F1098E1BEC026F00738881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F109711BEC026E00738881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F109781BEC026E00738881;
+			remoteInfo = PotatoHead;
+		};
+		53F109991BEC026F00738881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 53F109711BEC026E00738881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53F109781BEC026E00738881;
+			remoteInfo = PotatoHead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		53F109791BEC026E00738881 /* PotatoHead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PotatoHead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F1097C1BEC026E00738881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		53F1097E1BEC026E00738881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53F109811BEC026E00738881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F109831BEC026E00738881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53F109861BEC026F00738881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F109881BEC026F00738881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F1098D1BEC026F00738881 /* PotatoHeadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatoHeadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F109911BEC026F00738881 /* PotatoHeadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoHeadTests.swift; sourceTree = "<group>"; };
+		53F109931BEC026F00738881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F109981BEC026F00738881 /* PotatoHeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatoHeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F1099C1BEC026F00738881 /* PotatoHeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoHeadUITests.swift; sourceTree = "<group>"; };
+		53F1099E1BEC026F00738881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F109761BEC026E00738881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F1098A1BEC026F00738881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F109951BEC026F00738881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F109701BEC026E00738881 = {
+			isa = PBXGroup;
+			children = (
+				53F1097B1BEC026E00738881 /* PotatoHead */,
+				53F109901BEC026F00738881 /* PotatoHeadTests */,
+				53F1099B1BEC026F00738881 /* PotatoHeadUITests */,
+				53F1097A1BEC026E00738881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53F1097A1BEC026E00738881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F109791BEC026E00738881 /* PotatoHead.app */,
+				53F1098D1BEC026F00738881 /* PotatoHeadTests.xctest */,
+				53F109981BEC026F00738881 /* PotatoHeadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F1097B1BEC026E00738881 /* PotatoHead */ = {
+			isa = PBXGroup;
+			children = (
+				53F1097C1BEC026E00738881 /* AppDelegate.swift */,
+				53F1097E1BEC026E00738881 /* ViewController.swift */,
+				53F109801BEC026E00738881 /* Main.storyboard */,
+				53F109831BEC026E00738881 /* Assets.xcassets */,
+				53F109851BEC026F00738881 /* LaunchScreen.storyboard */,
+				53F109881BEC026F00738881 /* Info.plist */,
+			);
+			path = PotatoHead;
+			sourceTree = "<group>";
+		};
+		53F109901BEC026F00738881 /* PotatoHeadTests */ = {
+			isa = PBXGroup;
+			children = (
+				53F109911BEC026F00738881 /* PotatoHeadTests.swift */,
+				53F109931BEC026F00738881 /* Info.plist */,
+			);
+			path = PotatoHeadTests;
+			sourceTree = "<group>";
+		};
+		53F1099B1BEC026F00738881 /* PotatoHeadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				53F1099C1BEC026F00738881 /* PotatoHeadUITests.swift */,
+				53F1099E1BEC026F00738881 /* Info.plist */,
+			);
+			path = PotatoHeadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F109781BEC026E00738881 /* PotatoHead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F109A11BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHead" */;
+			buildPhases = (
+				53F109751BEC026E00738881 /* Sources */,
+				53F109761BEC026E00738881 /* Frameworks */,
+				53F109771BEC026E00738881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PotatoHead;
+			productName = PotatoHead;
+			productReference = 53F109791BEC026E00738881 /* PotatoHead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		53F1098C1BEC026F00738881 /* PotatoHeadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F109A41BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHeadTests" */;
+			buildPhases = (
+				53F109891BEC026F00738881 /* Sources */,
+				53F1098A1BEC026F00738881 /* Frameworks */,
+				53F1098B1BEC026F00738881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F1098F1BEC026F00738881 /* PBXTargetDependency */,
+			);
+			name = PotatoHeadTests;
+			productName = PotatoHeadTests;
+			productReference = 53F1098D1BEC026F00738881 /* PotatoHeadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		53F109971BEC026F00738881 /* PotatoHeadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F109A71BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHeadUITests" */;
+			buildPhases = (
+				53F109941BEC026F00738881 /* Sources */,
+				53F109951BEC026F00738881 /* Frameworks */,
+				53F109961BEC026F00738881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53F1099A1BEC026F00738881 /* PBXTargetDependency */,
+			);
+			name = PotatoHeadUITests;
+			productName = PotatoHeadUITests;
+			productReference = 53F109981BEC026F00738881 /* PotatoHeadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F109711BEC026E00738881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Lotte van der Molen";
+				TargetAttributes = {
+					53F109781BEC026E00738881 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					53F1098C1BEC026F00738881 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 53F109781BEC026E00738881;
+					};
+					53F109971BEC026F00738881 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 53F109781BEC026E00738881;
+					};
+				};
+			};
+			buildConfigurationList = 53F109741BEC026E00738881 /* Build configuration list for PBXProject "PotatoHead" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F109701BEC026E00738881;
+			productRefGroup = 53F1097A1BEC026E00738881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F109781BEC026E00738881 /* PotatoHead */,
+				53F1098C1BEC026F00738881 /* PotatoHeadTests */,
+				53F109971BEC026F00738881 /* PotatoHeadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F109771BEC026E00738881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F109871BEC026F00738881 /* LaunchScreen.storyboard in Resources */,
+				53F109841BEC026E00738881 /* Assets.xcassets in Resources */,
+				53F109821BEC026E00738881 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F1098B1BEC026F00738881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F109961BEC026F00738881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F109751BEC026E00738881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1097F1BEC026E00738881 /* ViewController.swift in Sources */,
+				53F1097D1BEC026E00738881 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F109891BEC026F00738881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F109921BEC026F00738881 /* PotatoHeadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53F109941BEC026F00738881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F1099D1BEC026F00738881 /* PotatoHeadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53F1098F1BEC026F00738881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F109781BEC026E00738881 /* PotatoHead */;
+			targetProxy = 53F1098E1BEC026F00738881 /* PBXContainerItemProxy */;
+		};
+		53F1099A1BEC026F00738881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 53F109781BEC026E00738881 /* PotatoHead */;
+			targetProxy = 53F109991BEC026F00738881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		53F109801BEC026E00738881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F109811BEC026E00738881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F109851BEC026F00738881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F109861BEC026F00738881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F1099F1BEC026F00738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53F109A01BEC026F00738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F109A21BEC026F00738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PotatoHead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53F109A31BEC026F00738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PotatoHead/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		53F109A51BEC026F00738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PotatoHeadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotatoHead.app/PotatoHead";
+			};
+			name = Debug;
+		};
+		53F109A61BEC026F00738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PotatoHeadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHeadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PotatoHead.app/PotatoHead";
+			};
+			name = Release;
+		};
+		53F109A81BEC026F00738881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PotatoHeadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PotatoHead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		53F109A91BEC026F00738881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PotatoHeadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nl.mprog.PotatoHeadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PotatoHead;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F109741BEC026E00738881 /* Build configuration list for PBXProject "PotatoHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F1099F1BEC026F00738881 /* Debug */,
+				53F109A01BEC026F00738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F109A11BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F109A21BEC026F00738881 /* Debug */,
+				53F109A31BEC026F00738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53F109A41BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHeadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F109A51BEC026F00738881 /* Debug */,
+				53F109A61BEC026F00738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		53F109A71BEC026F00738881 /* Build configuration list for PBXNativeTarget "PotatoHeadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F109A81BEC026F00738881 /* Debug */,
+				53F109A91BEC026F00738881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F109711BEC026E00738881 /* Project object */;
+}
