@@ -14,6 +14,7 @@
 		53F109871BEC026F00738881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F109851BEC026F00738881 /* LaunchScreen.storyboard */; };
 		53F109921BEC026F00738881 /* PotatoHeadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F109911BEC026F00738881 /* PotatoHeadTests.swift */; };
 		53F1099D1BEC026F00738881 /* PotatoHeadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F1099C1BEC026F00738881 /* PotatoHeadUITests.swift */; };
+		53F109AB1BEC178A00738881 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F109AA1BEC178A00738881 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		53F109981BEC026F00738881 /* PotatoHeadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PotatoHeadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F1099C1BEC026F00738881 /* PotatoHeadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotatoHeadUITests.swift; sourceTree = "<group>"; };
 		53F1099E1BEC026F00738881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53F109AA1BEC178A00738881 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				53F1097E1BEC026E00738881 /* ViewController.swift */,
 				53F109801BEC026E00738881 /* Main.storyboard */,
 				53F109831BEC026E00738881 /* Assets.xcassets */,
+				53F109AA1BEC178A00738881 /* CheckBox.swift */,
 				53F109851BEC026F00738881 /* LaunchScreen.storyboard */,
 				53F109881BEC026F00738881 /* Info.plist */,
 			);
@@ -258,6 +261,7 @@
 			files = (
 				53F1097F1BEC026E00738881 /* ViewController.swift in Sources */,
 				53F1097D1BEC026E00738881 /* AppDelegate.swift in Sources */,
+				53F109AB1BEC178A00738881 /* CheckBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
